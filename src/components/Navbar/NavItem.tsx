@@ -1,5 +1,5 @@
 "use-client";
-import { NavItemPropsType } from "@/interface&types/NavBar";
+import { NavItemPropsType } from "@/interface_types/NavBar";
 import React from "react";
 import { Button } from "../ui/button";
 import { ChevronDown } from "lucide-react";

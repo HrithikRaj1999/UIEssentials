@@ -1,11 +1,10 @@
 import Link from "next/link";
 import MaxWidthWrapper from "../MaxWidthWrapper";
 import Image from "next/image";
-import logo from "../../../public/logo.jpg";
 import NavItems from "./NavItems";
 import { buttonVariants } from "../ui/button";
-import { ShoppingCartIcon } from "lucide-react";
-import Cart from "../cart";
+import Cart from "../Cart";
+
 
 const Navbar = () => {
   const user = null;
@@ -18,7 +17,7 @@ const Navbar = () => {
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
                   <Image
-                    src={logo}
+                    src={'/logo.jpg'}
                     alt="Logo"
                     width={70}
                     height={70}
