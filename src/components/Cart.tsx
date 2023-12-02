@@ -15,7 +15,7 @@ import { buttonVariants } from "./ui/button";
 import Image from "next/image";
 
 const Cart = () => {
-  const itemCount = 0;
+  const itemCount = 1;
   const cost = 15000;
   return (
     <Sheet>
