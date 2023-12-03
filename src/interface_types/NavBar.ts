@@ -9,3 +9,4 @@ export interface NavItemPropsType{
     index:number
     isAnyOpen:boolean
 }
+

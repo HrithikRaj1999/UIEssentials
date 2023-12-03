@@ -17,7 +17,7 @@ const Navbar = () => {
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
                   <Image
-                    src={'/logo.jpg'}
+                    src='/logo.png'
                     alt="Logo"
                     width={70}
                     height={70}
